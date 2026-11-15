@@ -1,18 +1,17 @@
-
 [
     {
-        "nombre": "Exposición de arquitectura",
-        "tipo": "Exposición",
-        "descripcion": "Una muestra de proyectos de arquitectura contemporánea."
+        "nombre": "Architecture Exhibition",
+        "tipo": "Exhibition",
+        "descripcion": "An exhibition featuring contemporary architecture projects."
     },
     {
-        "nombre": "Charlas de arquitectura",
-        "tipo": "Conferencia",
-        "descripcion": "Un encuentro sobre nuevas formas de diseñar y habitar."
+        "nombre": "Architecture Talks",
+        "tipo": "Lecture",
+        "descripcion": "A gathering about new ways of designing and inhabiting space."
     },
     {
-        "nombre": "Recorridos urbanos",
-        "tipo": "Visita guiada",
-        "descripcion": "Un recorrido para descubrir la arquitectura de Buenos Aires."
+        "nombre": "Urban Tours",
+        "tipo": "Guided tour",
+        "descripcion": "A tour to discover the architecture of Buenos Aires."
     }
 ]
