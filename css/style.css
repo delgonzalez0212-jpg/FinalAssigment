@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:wght@700&display=swap');
+
+/* VARIABLES */
+
+:root {
+    --fondo: #EFE7DC;
+    --superficie: #FAF6F1;
+    --texto: #1F3552;
+    --acento: #C85632;
+    --footer: #1F3552;
+}
+
+/* GENERAL */
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: var(--fondo);
+}
+
+.navbar .navbar-brand {
+    color: var(--texto);
+}
+
+.navbar .nav-link {
+    color: var(--texto);
+}
+
+.navbar .nav-link:hover {
+    color: var(--acento);
+}
+
+/* TITULOS */
+
+h1, h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--texto);
+}
+
+header h1 {
+    font-size: clamp(2.4rem, 6vw, 5.6rem);
+    line-height: 1.1;
+}
+
+header h1 span {
+    color: var(--acento);
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.destacado {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--acento);
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--texto);
+}
+
+/* BOTONES */
+
+.btn-dark {
+    background-color: var(--acento);
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #A94324;
+    color: #ffffff;
+}
+
+/* ACTIVIDADES */
+
+.activity-card {
+    background-color: var(--superficie);
+}
+
+.activity-card .tipo {
+    color: var(--acento);
+}
+
+.activity-card p {
+    color: var(--texto);
+}
+
+/* IMAGEN */
+
+img {
+    width: 100%;
+}
+
+/* INFORMACION */
+
+#informacion p {
+    color: var(--texto);
+}
+
+#informacion .destacado {
+    color: var(--acento);
+}
+
+/* MODAL */
+
+.modal-content {
+    background-color: var(--superficie);
+    color: var(--texto);
+}
+
+.modal-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--texto);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--footer);
+    color: #F7F2EB;
+}
+
+.footer-marca {
+    color: #F7F2EB;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-marca span {
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    color: #E5B77A;
+}
+
+.footer-marca:hover {
+    color: #E5B77A;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #D9DDD4;
+}
+
+.footer-redes a {
+    color: #F7F2EB;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-redes a:hover {
+    color: #E5B77A;
+}

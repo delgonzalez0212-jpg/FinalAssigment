@@ -1,0 +1,18 @@
+
+[
+    {
+        "nombre": "Exposición de arquitectura",
+        "tipo": "Exposición",
+        "descripcion": "Una muestra de proyectos de arquitectura contemporánea."
+    },
+    {
+        "nombre": "Charlas de arquitectura",
+        "tipo": "Conferencia",
+        "descripcion": "Un encuentro sobre nuevas formas de diseñar y habitar."
+    },
+    {
+        "nombre": "Recorridos urbanos",
+        "tipo": "Visita guiada",
+        "descripcion": "Un recorrido para descubrir la arquitectura de Buenos Aires."
+    }
+]
